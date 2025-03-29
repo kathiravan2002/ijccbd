@@ -1,56 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import cloud from '/assets/cloud.png'
 import dash from '/assets/books.jpg'
 import check from '/assets/Checkmark.png'
 
 
-function Authorguidelines() {
+function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
 
-  const [activeTab, setActiveTab] = useState(0);
-  const featuredTopics = [
-    {
-      title: "Research Article",
-      content: [
-        "The International Journal of Cloud Computing and Big Data (IJCCBD) ensures a rigorous double-blind peer review process for research articles. ",
-        "Each submission is evaluated for originality, research methodology, data analysis, and contribution to the field.",
-        "Independent experts assess the scientific validity, significance, and clarity of findings. ",
-        "Authors receive constructive feedback and may be required to make revisions before acceptance. ",
-        "This process ensures that only high-quality, impactful research articles are published, contributing to advancements in cloud computing and big data.",
-
-      ],
-
-    },
-    {
-      title: "In-depth Review Article",
-      content: [
-        "In-depth review articles submitted to the IJCCBD undergo a thorough double-blind peer review. ",
-        "Experts assess the comprehensiveness, critical analysis, and relevance of the literature reviewed.",
-        "The article must provide new insights, highlight research gaps, and offer valuable perspectives on emerging trends.",
-        "Reviewers ensure the accuracy, credibility, and scholarly contribution of the article.",
-        "Authors may be required to refine their work based on feedback to maintain the journal’s high academic standards.",
-
-      ],
-
-    },
-    {
-      title: "Technical Article",
-      content: [
-        "Technical articles submitted to the IJCCBD are reviewed for innovation, technical depth, and practical applicability.",
-        "The double-blind peer review process ensures that articles present accurate, well-supported, and industry-relevant solutions.",
-        "Reviewers evaluate the clarity of technical explanations, effectiveness of proposed methodologies, and potential real-world impact.",
-        "Authors receive detailed feedback to refine their work, ensuring the publication of high-quality, technically sound articles that advance cloud computing and big data technologies.",
-
-      ],
-
-    }
-  ];
   return (
     <div className='flex flex-cols  w-full'>
 
       <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  lg:mt-[145px] mt-[80px]">
         <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
-          <div className='lg:flex justify-evenly'>
+          <div className='lg:flex justify-evenly gap-2'>
             <div>
               <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                 Author Guidelines

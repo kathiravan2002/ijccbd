@@ -12,7 +12,7 @@ const Aimscope = () => {
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
-                    <div className='lg:flex justify-evenly'>
+                    <div className='lg:flex justify-evenly gap-2'>
                         <div>
                             <h1 className="text-xl  lg:text-2xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                                 Aim and  scope
@@ -24,7 +24,7 @@ const Aimscope = () => {
                                 The International Journal of Cloud Computing and Big Data (IJCCBD) aims to provide a leading platform for researchers, academicians, and industry professionals to publish and share innovative research in cloud computing and big data. The journal focuses on key areas such as cloud architecture, security, big data analytics, distributed computing, IoT integration, and AI-driven data processing. It welcomes original research articles, review papers, and case studies that explore emerging trends, challenges, and practical applications.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <a href="" target="_blank" rel="noopener noreferrer">
+                                <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
                                         <div className='flex justify-between '>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>

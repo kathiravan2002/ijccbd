@@ -1,37 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import submit from '/assets/uploads.png'
 import cloud from '/assets/cloud.png'
 import right from '/assets/Right.png'
-import { useNavigate } from "react-router-dom";
 import dash from '/assets/books.jpg'
 import check from '/assets/Checkmark.png'
 
-
-
-function Aboutus() {
-
-    const navigate = useNavigate();
-    const [activeTab, setActiveTab] = useState(0);
-    const featuredTopics = [
-        {
-            title: "Peer Review ",
-            content: "The International Journal of Cloud Computing and Big Data (IJCCBD) follows a rigorous double-blind peer review process to ensure the quality and integrity of published research. Submitted manuscripts are reviewed by experts in the field, evaluating originality, relevance, and technical accuracy before acceptance.",
-            buttonText: "Learn More ",
-            buttonAction: () => { navigate('/peer') }
-        },
-        {
-            title: "Publications Ethics",
-            content: "The International Journal of Cloud Computing and Big Data (IJCCBD) upholds the highest standards of publication ethics to ensure integrity and transparency in research. Authors, reviewers, and editors are expected to follow ethical guidelines, including plagiarism prevention, data authenticity, and fair peer review practices.",
-            buttonText: "Learn More ",
-            buttonAction: () => { navigate('/publicationethicspage') }
-        },
-        {
-            title: "Article Processing",
-            content: "The International Journal of Cloud Computing and Big Data (IJCCBD) ensures a smooth and transparent article processing workflow, from submission to publication. Each manuscript undergoes initial screening, peer review, revisions, and final editing before being published to maintain high research standards.",
-            buttonText: "Learn More ",
-            buttonAction: () => { navigate('/articleprocessingpage') }
-        }
-    ];
+function Aboutus({navigate,activeTab,setActiveTab,featuredTopics}) {
 
     return (
         <div className='flex flex-col '>
@@ -39,7 +13,7 @@ function Aboutus() {
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px] ">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
-                    <div className='lg:flex justify-evenly'>
+                    <div className='lg:flex justify-evenly gap-2'>
                         <div>
                             <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                                 About us
@@ -51,7 +25,7 @@ function Aboutus() {
                                 The International Journal of Cloud Computing and Big Data (IJCCBD) is a peer-reviewed journal dedicated to advancing research and innovation in cloud computing and big data technologies. We publish high-quality research articles, reviews, and case studies that address emerging trends, challenges, and applications in these fields. Our mission is to foster knowledge exchange among researchers, academicians, and industry professionals worldwide. IJCCBD aims to be a leading platform for groundbreaking research that shapes the future of cloud computing and big data.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <a href="" target="_blank" rel="noopener noreferrer">
+                                <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
                                         <div className='flex justify-between '>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>

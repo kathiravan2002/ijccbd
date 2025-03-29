@@ -4,19 +4,19 @@ const Helmetcomponent = ({ title }) => {
   return (
     <Helmet>
     <title>{title}</title>
-    {/* <meta name="keywords" content="IJCCBD, International Journal of Cloud Computing and Security Systems , Authentication, Cloud Security, Cloud Computing, Artificial Intelligrnce, Private Cloud, Public Cloud,  Cloud Computing, Cloud Orchestration, Cloud Computing,Cloud Automation,Tokenization" />
-    <meta name="description" content="IJCCBD publishes cutting-edge research on cloud computing technologies, security frameworks, data protection, and cybersecurity strategies. Explore the latest advancements in secure cloud architectures, encryption methods, threat detection, and privacy-preserving solutions." />
+    <meta name="keywords" content="IJCCBD, International Journal of Cloud Computing and Big Data , Cloud Optimization, Hybrid Cloud, Public Cloud,Private Cloud,Edge Computing, Data Processing,  Data Storage,Cloud Infrastructure, Big Data,Cloud Automation,Cloud Computing" />
+    <meta name="description" content="International Journal of Cloud Computing and Big Data publishes cutting-edge research on cloud technologies, big data analytics, security, and innovations." />
     <meta name="author" content="IJCCBD Editorial Team" />
     <meta name="robots" content="index, follow" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="International Journal of Cloud Computing and Security Systems(IJCCBD)" />
-    <meta property="og:description" content="IJCCBD publishes cutting-edge research on cloud computing technologies, security frameworks, data protection, and cybersecurity strategies. Explore the latest advancements in secure cloud architectures, encryption methods, threat detection, and privacy-preserving solutions." />
-    <meta property="og:url" content="https://www.ijccss.com/" />
-    <meta property="og:image" content="https://ijccss.com/assets/logo.png" />
+    <meta property="og:title" content="International Journal of Cloud Computing and Big Data(IJCCBD)" />
+    <meta property="og:description" content="International Journal of Cloud Computing and Big Data publishes cutting-edge research on cloud technologies, big data analytics, security, and innovations." />
+    <meta property="og:url" content="https://www.ijccbd.com/" />
+    <meta property="og:image" content="https://ijccbd.com/assets/IJCCBD.png" />
 
-    <link rel="canonical" href="https://www.ijccss.com/" />
-    <link rel="icon" type="image/png" href="https://www.ijccss.com//assets/fav.png" /> */}
+    <link rel="icon" type="image/svg+xml" href="/assets/Fav.png" />
+    <link rel="canonical" href="https://www.ijccbd.com/" />
   </Helmet>
   );
 };

@@ -11,7 +11,7 @@ const Correction = () => {
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
-                    <div className='lg:flex justify-evenly'>
+                    <div className='lg:flex justify-evenly gap-2'>
                         <div>
                             <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Journal Correction Policy

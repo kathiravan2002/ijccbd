@@ -53,8 +53,8 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
         <div className="p-5">
           <div className="w-44  p-2"><img src="/logo/logo.png" loading='lazy' alt="" className="invert w-full" /></div>
           <div onClick={ToggleMenu} className="absolute right-5 top-5 cursor-pointer"><IoCloseCircleOutline className="text-2xl" /></div>
-          <ul className="flex flex-col items-center mt-5 *:my-2 *:px-2 *:w-full hover:*:text-primary-dark overflow-y-auto max-h-[calc(100vh-150px)] ">
-            <Link to="/" className={` ${isActive == '/' ? 'text-primary-dark' : ''}`}>
+          <ul className="flex flex-col items-center mt-5 *:my-2 *:px-2 *:w-full hover:*:text-white overflow-y-auto max-h-[calc(100vh-150px)] ">
+            <Link to="/" className={` ${isActive == '/' ? 'text-white' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
@@ -72,7 +72,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                   <ul className="p-2 text-sm max-w-none w-full whitespace-nowrap ">
                     {Overview.map((link, index) => (
                       <Link key={index} onClick={() => { setDropdown1(!dropdown1), ToggleMenu(false) }} to={link.path} className="!w-full" >
-                        <li className="px-4 py-2 hover:bg-primary-dark hover:text-white rounded-md border-b border-primary-dark" >{link.name} </li>
+                        <li className="px-4 py-2  hover:text-white rounded-md border-b k" >{link.name} </li>
                       </Link>
                     ))}
                   </ul>
@@ -85,14 +85,14 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                   <ul className="p-2 text-sm max-w-none w-full whitespace-nowrap ">
                     {Policy.map((link, index) => (
                       <Link key={index} onClick={() => { setDropdown2(!dropdown2), ToggleMenu(false) }} to={link.path} className="!w-full" >
-                        <li className="px-4 py-2 hover:bg-primary-dark hover:text-white rounded-md border-b border-primary-dark" >{link.name} </li>
+                        <li className="px-4 py-2  hover:text-white rounded-md border-b " >{link.name} </li>
                       </Link>
                     ))}
 
                   </ul>
                 </div>}
             </li>
-            <Link to="/copyrightformpage" className={` ${isActive == '/copyright' ? 'text-primary-dark underline underline-offset-4' : ''}`}>
+            <Link to="/copyrightformpage" className={` ${isActive == '/copyright' ? ' underline underline-offset-4' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);
@@ -103,7 +103,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
                Copyrights
               </li>
             </Link>
-            <Link to="/contactuspage" className={` ${isActive == '/contactus' ? 'text-primary-dark underline underline-offset-4' : ''}`}>
+            <Link to="/contactuspage" className={` ${isActive == '/contactus' ? 'underline underline-offset-4' : ''}`}>
               <li
                 onClick={() => {
                   ToggleMenu(false);

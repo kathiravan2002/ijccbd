@@ -1,53 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import cloud from '/assets/cloud.png'
 import check from '/assets/Checkmark.png'
 import dash from '/assets/books.jpg'
 
-function Publicationethics() {
+function Publicationethics({activeTab,setActiveTab,featuredTopics}) {
 
-    const [activeTab, setActiveTab] = useState(0);
-    const featuredTopics = [
-        {
-            title: "Open Acess Policy",
-            content: [
-                "The International Journal of Cloud Computing and Big Data (IJCCBD) follows an open access policy, ensuring that all published articles are freely available to researchers, academicians, and the public without any subscription or access fees.  ",
-                "This promotes global knowledge sharing, innovation, and collaboration in the fields of cloud computing and big data.",
-                "Authors retain copyright over their work while granting the journal the right to distribute and archive it.  ",
-                "Readers can access, download, and share published content, provided proper citation is given. ",
-
-            ],
-
-        },
-        {
-            title: "Creative Common License",
-            content: [
-                "All articles in IJCCBD are published under a Creative Commons Attribution License (CC BY), allowing others to share, adapt, and build upon the work with proper attribution to the original authors.",
-                "This license promotes open access to research, enabling wider dissemination and academic collaboration.",
-                "Authors must ensure that their submissions comply with copyright laws and include necessary permissions for third-party content.",
-                "The journal encourages ethical use and citation of published work to uphold scholarly integrity.",
-
-            ],
-
-        },
-        {
-            title: "Community Standards",
-            content: [
-                "The International Journal of Cloud Computing and Big Data (IJCCBD) is committed to fostering a respectful, inclusive, and professional academic community. ",
-                "Authors, reviewers, and editors must engage in ethical research practices, constructive peer review, and fair collaboration.",
-                "Any form of discrimination, harassment, or unethical conduct is strictly prohibited.",
-                "The journal promotes transparency, integrity, and intellectual diversity in all scholarly communications.",
-
-            ],
-
-        }
-    ];
+   
     return (
         <div className='flex flex-cols  w-full'>
 
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  lg:mt-[145px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
-                    <div className='lg:flex justify-evenly'>
+                    <div className='lg:flex justify-evenly gap-2'>
                         <div>
                             <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Publication Ethics

@@ -1,48 +1,19 @@
-import React, { useState } from 'react'
+import React from 'react'
 import cloud from '/assets/cloud.png'
 import check from '/assets/Checkmark.png'
 import dash from '/assets/books.jpg'
 import submit from '/assets/uploads.png';
 
-function Articalprocessing() {
+function Articalprocessing({activeTab,setActiveTab,featuredTopics}) {
 
-    const [activeTab, setActiveTab] = useState(0);
-    const featuredTopics = [
-        {
-            title: "Initial Submission",
-            content: [
-                "Authors submit their manuscripts through the journal’s online submission system.",
-                "The editorial team conducts an initial review to check for relevance, originality, and adherence to guidelines.",
-              
-            ],
-
-        },
-        {
-            title: "Peer Review",
-            content: [
-                "Submitted manuscripts undergo a double-blind peer review by independent experts.",
-                "Reviewers evaluate the work’s quality, relevance, and originality, providing constructive feedback.",
-
-            ],
-
-        },
-        {
-            title: "Publications",
-            content: [
-                "After final acceptance, the article is formatted, proofread, and published online with open access. ",
-                "Authors receive a publication confirmation and citation details.",
-
-            ],
-
-        }
-    ];
+   
     return (
         <div className='flex flex-cols  w-full'>
 
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  lg:mt-[145px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
-                    <div className='lg:flex justify-evenly'>
+                    <div className='lg:flex justify-evenly gap-2'>
                         <div>
                             <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                                 Article Processing
@@ -54,7 +25,7 @@ function Articalprocessing() {
                             The International Journal of Cloud Computing and Big Data (IJCCBD) follows a structured article processing workflow to ensure high-quality and timely publication. Each submitted manuscript undergoes an initial editorial screening, followed by a rigorous double-blind peer review process. Accepted articles are carefully edited, formatted, and prepared for online publication. The journal maintains transparency in the review and publication timeline to provide authors with a smooth and efficient experience. IJCCBD is committed to upholding academic integrity and publishing impactful research in cloud computing and big data.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <a href="" target="_blank" rel="noopener noreferrer">
+                                <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
                                         <div className='flex justify-between '>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>

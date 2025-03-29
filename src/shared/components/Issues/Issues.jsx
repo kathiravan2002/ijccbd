@@ -9,7 +9,7 @@ function Issues() {
        <h1 className="text-xl  lg:text-xl poppins-bold mb-4 text-[#4B164C] pr-2 " > Issues :</h1>
        </div>
            <div className='min-h-[55vh] mt-64'>
-            <h2 className=" text-primary-dark text-xl poppins-bold text-center">Updates will come soon...</h2> 
+            <h2 className="text-xl poppins-bold text-center">Updates will come soon...</h2> 
            </div>
        
         </div>

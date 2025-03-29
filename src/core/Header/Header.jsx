@@ -103,7 +103,7 @@ const Header = () => {
   
               <Link to={"/"} className="lg:block hidden  lg:pl-44 xl:pl-0">
                 <div className="flex justify-center items-center">
-                  <h1 className="text-2xl font-semibold text-primary-dark whitespace-nowrap text-white namdhinggo-bold ">International Journal of Cloud Computing and Big Data</h1>
+                  <h1 className="text-2xl font-semibold  whitespace-nowrap text-white namdhinggo-bold ">International Journal of Cloud Computing and Big Data</h1>
                 </div>
               </Link>
 
@@ -117,7 +117,7 @@ const Header = () => {
                 {" "}
                 
                 < GiHamburgerMenu 
-                  className={`${scroll ? " " : ""}  ml-12 text-3xl text-primary-dark cursor-pointer duration-300 m-1.5  rotate-180 `}
+                  className={`${scroll ? " " : ""}  ml-12 text-3xl  cursor-pointer duration-300 m-1.5  rotate-180 `}
                 />
               </div>
 
@@ -150,7 +150,7 @@ const Header = () => {
                     <ul className="p-2 text-sm max-w-none w-full whitespace-nowrap ">
                       {Aboutus.map((link, index) => (
                         <Link key={index} onClick={() => setDropdown1(!dropdown1)} to={link.path} className="!w-full" >
-                          <li className="px-4 py-1 hover:bg-primary-dark text-[#4B164C] font-medium rounded-md border-b border-primary-dark" >{link.name} </li>
+                          <li className="px-4 py-1  text-[#4B164C] font-medium rounded-md border-b " >{link.name} </li>
                         </Link>
                       ))}
                     </ul>
@@ -162,7 +162,7 @@ const Header = () => {
                     <ul className="p-2 text-sm max-w-none w-full whitespace-nowrap ">
                       {Overview.map((link, index) => (
                         <Link key={index} onClick={() => setDropdown2(!dropdown2)} to={link.path} className="!w-full" >
-                          <li className="px-4 py-1 hover:bg-primary-dark  text-[#4B164C] font-medium rounded-md border-b border-primary-dark" >{link.name} </li>
+                          <li className="px-4 py-1   text-[#4B164C] font-medium rounded-md border-b " >{link.name} </li>
                         </Link>
                       ))}
                     </ul>
@@ -174,7 +174,7 @@ const Header = () => {
                     <ul className="p-2 text-sm max-w-none w-full whitespace-nowrap ">
                       {Policy.map((link, index) => (
                         <Link key={index} onClick={() => setDropdown3(!dropdown3)} to={link.path} className="!w-full" >
-                          <li className="px-4 py-1 hover:bg-primary-dark  text-[#4B164C] font-medium rounded-md border-b border-primary-dark" >{link.name} </li>
+                          <li className="px-4 py-1   text-[#4B164C] font-medium rounded-md border-b " >{link.name} </li>
                         </Link>
                       ))}
                     </ul>
