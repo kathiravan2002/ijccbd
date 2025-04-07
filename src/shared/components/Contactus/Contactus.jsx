@@ -5,8 +5,8 @@ function Contactus() {
     return (
         <div className='flex flex-col  w-full'>
            
-            <div className='w-full lg:mt-[145px] mt-[80px]'>  
-                <h1 className="text-xl  lg:text-xl poppins-extrabold mb-4 text-[#4B164C] text-center">Contact us</h1>
+            <div className='w-full 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]'>  
+                <h1 className="text-lg  lg:text-xl poppins-extrabold mb-4 text-[#4B164C] text-center">Contact us</h1>
                 <p className="text-black text-base mb-4 poppins-regular text-center">Get in touch with us for any queries or support </p>
                <div className='w-full  mx-auto px-6' >
                 <div className="bg-[#F8E7F6] p-6 rounded-lg border max-w-md mx-auto">

@@ -9,12 +9,12 @@ const Malpractice = () => {
     return (
         <div className='flex '>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
+            <div className="text-justify 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Publication Ethics and Malpractice Policy
                             </h1>
                             <div className='lg:hidden block '>
@@ -63,10 +63,10 @@ const Malpractice = () => {
                 </div>
                 <div className="bg-white p-3 border rounded-lg shadow-md">
                     <div className="relative w-fit mx-auto mb-6">
-                        <h2 className=" text-xl lg:text-xl poppins-bold text-[#4B164C] text-center ">
+                        <h2 className=" text-lg lg:text-xl poppins-bold text-[#4B164C] text-center ">
                         Reviewer's Responsibilities
                         </h2>
-                        <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] '></div></div>
+                        <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] hidden lg:block'></div></div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 '><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">Reviewers for the International Journal of Cloud Computing and Big Data (IJCCBD) play a crucial role in maintaining the quality and integrity of published research.</p><br /> </div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">They must provide fair, objective, and constructive feedback to help authors improve their work while maintaining confidentiality throughout the review process.</p><br /> </div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">Reviewers should assess the originality, methodology, significance, and clarity of submissions, ensuring they meet ethical and academic standards.</p><br /> </div>

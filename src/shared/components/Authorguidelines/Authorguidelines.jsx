@@ -9,12 +9,12 @@ function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
   return (
     <div className='flex flex-cols  w-full'>
 
-      <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  lg:mt-[145px] mt-[80px]">
+      <div className="text-justify 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
         <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
           <div className='lg:flex justify-evenly gap-2'>
             <div>
-              <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+              <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                 Author Guidelines
               </h1>
               <div className='lg:hidden block '>
@@ -43,16 +43,16 @@ function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
             <h2 className="text-base text-[#4B164C] poppins-bold mb-2 mt-2 pl-6 lg:pl-16">Key Requirements :</h2>
             <ul className="list-disc  space-y-2 poppins-regular 2xl:px-28 xl:px-28 lg:px-20 md:px-18  px-11 ">
               <li>
-                Manuscripts must adhere to the IJCCBD template
+                Manuscripts must adhere to the IJCCBD template.
               </li>
               <li>
-                Abstracts should be 200-1000 characters and structured as per PubMed format
+                Abstracts should be 200-1000 characters and structured as per PubMed format.
               </li>
               <li>
-                Three to eight keywords must be included
+                Three to eight keywords must be included.
               </li>
-              <li> References should follow the Vancouver style </li>
-              <li>Ensure proper grammar, spelling, and use of formal English</li>
+              <li> References should follow the Vancouver style. </li>
+              <li>Ensure proper grammar, spelling, and use of formal English.</li>
             </ul>
           </div>
 
@@ -66,11 +66,11 @@ function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
             <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Each submission undergoes an initial editorial screening before being sent for a double-blind peer review.</p></div>
             <h2 className="text-base text-[#4B164C] poppins-bold mb-2 mt-2 pl-6 lg:pl-16">Key Requirements :</h2>
             <ul className="list-disc  space-y-2 poppins-regular 2xl:px-28 xl:px-28 lg:px-20 md:px-18  px-11 ">
-              <li> Initial manuscript screening by editorial team </li>
-              <li> Double-blind peer review process </li>
-              <li> Author revision period  </li>
-              <li> Final editorial decision </li>
-              <li>Publication with Creative Commons licensing</li>
+              <li> Initial manuscript screening by editorial team. </li>
+              <li> Double-blind peer review process. </li>
+              <li> Author revision period.  </li>
+              <li> Final editorial decision. </li>
+              <li>Publication with Creative Commons licensing.</li>
             </ul>
             <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Our editorial team provides comprehensive support throughout the submission process to ensure a smooth publishing experience.</p></div>
 
@@ -85,7 +85,7 @@ function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
                 Accepted Article Types
               </h2>
               <div className='absolute bg-[#4B164C] h-[3px] min-w-[130px] '></div></div>
-            <div className="flex border-b-[2px] border-[#4B164C] mb-6 gap-8">
+            <div className="flex border-b-[2px] border-[#4B164C] mb-6 lg:gap-8 gap-2 sm:gap-8 md:gap-8">
               {featuredTopics.map((topic, index) => (
                 <button
                   key={index}

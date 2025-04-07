@@ -3,18 +3,19 @@ import submit from '/assets/uploads.png'
 import cloud from '/assets/cloud.png'
 import check from '/assets/Checkmark.png'
 import dash from '/assets/books.jpg'
+import { Link } from 'react-router-dom';
 
 
 const Aimscope = () => {
     return (
         <div className='flex flex-col'>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
+            <div className="text-justify 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-2xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-2xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                                 Aim and  scope
                             </h1>
                             <div className='lg:hidden block '>
@@ -24,12 +25,12 @@ const Aimscope = () => {
                                 The International Journal of Cloud Computing and Big Data (IJCCBD) aims to provide a leading platform for researchers, academicians, and industry professionals to publish and share innovative research in cloud computing and big data. The journal focuses on key areas such as cloud architecture, security, big data analytics, distributed computing, IoT integration, and AI-driven data processing. It welcomes original research articles, review papers, and case studies that explore emerging trends, challenges, and practical applications.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
-                                    <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
-                                        <div className='flex justify-between '>  Submit Manuscript
+                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                                    <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold lg:text-base  text-sm" >
+                                        <div className='flex justify-between items-center'>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className='hidden lg:block '>
@@ -63,17 +64,17 @@ const Aimscope = () => {
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>IJCCBD serves as a platform for researchers, academicians, and industry professionals to share knowledge and address challenges in cloud and data-driven technologies. </p></div>
                     </div>
                 </div>
-                <div className="bg-white p-2 border rounded-lg shadow-md ">
+                <div className="bg-white  border rounded-lg shadow-md py-2">
                     <div className="relative w-fit mx-auto mb-6">
                         <h2 className=" text-xl lg:text-xl poppins-bold text-[#4B164C] text-center ">
                             Research Areas
                         </h2>
                         <div className='absolute bg-[#4B164C] h-[3px] min-w-[150px] '></div></div>
-                    <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 '><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The International Journal of Cloud Computing and Big Data (IJCCBD) covers a wide range of research areas, including but not limited to cloud computing architectures, virtualization, and security. </p><br /> </div>
-                    <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">It explores big data analytics, data mining, machine learning, and AI-driven data processing. </p><br /> </div>
-                    <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The journal also focuses on distributed computing, edge and fog computing, IoT integration, and blockchain applications in cloud environments. </p><br /> </div>
-                    <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">Topics such as data storage optimization, cloud service models, and high-performance computing are also within its scope.</p><br /> </div>
-                    <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular"> IJCCBD aims to publish innovative research that addresses emerging challenges and advancements in these rapidly evolving fields. </p><br /> </div>
+                    <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3  gap-2 '><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The International Journal of Cloud Computing and Big Data (IJCCBD) covers a wide range of research areas, including but not limited to cloud computing architectures, virtualization, and security. </p><br /> </div>
+                    <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3  gap-2 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">It explores big data analytics, data mining, machine learning, and AI-driven data processing. </p><br /> </div>
+                    <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3  gap-2 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The journal also focuses on distributed computing, edge and fog computing, IoT integration, and blockchain applications in cloud environments. </p><br /> </div>
+                    <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3  gap-2 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">Topics such as data storage optimization, cloud service models, and high-performance computing are also within its scope.</p><br /> </div>
+                    <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3  gap-2 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular"> IJCCBD aims to publish innovative research that addresses emerging challenges and advancements in these rapidly evolving fields. </p><br /> </div>
                 </div>
             </div>
         </div>

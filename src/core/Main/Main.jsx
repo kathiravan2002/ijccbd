@@ -9,7 +9,7 @@ export default function Main() {
         <div className="bg-[#F5F5F5]">
             <Header />
            
-            <main className={`w-auto mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:pl-4 pl-2  xl:max-w-[1500px]  md:max-w-[920px] lg:mb-6 mb-3 min-h-[85vh] `}>
+            <main className={`w-auto mx-auto  2xl:p-0   p-4  xl:max-w-[1464px]  md:max-w-[920px] lg:mb-6 mb-3 min-h-[85vh] `}>
                
                 <Outlet />
             </main>

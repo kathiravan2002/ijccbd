@@ -4,18 +4,19 @@ import cloud from '/assets/cloud.png'
 import right from '/assets/Right.png'
 import dash from '/assets/books.jpg'
 import check from '/assets/Checkmark.png'
+import { Link } from 'react-router-dom'
 
 function Aboutus({navigate,activeTab,setActiveTab,featuredTopics}) {
 
     return (
         <div className='flex flex-col '>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px] ">
+            <div className="text-justify  2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                                 About us
                             </h1>
                             <div className='lg:hidden block '>
@@ -25,12 +26,12 @@ function Aboutus({navigate,activeTab,setActiveTab,featuredTopics}) {
                                 The International Journal of Cloud Computing and Big Data (IJCCBD) is a peer-reviewed journal dedicated to advancing research and innovation in cloud computing and big data technologies. We publish high-quality research articles, reviews, and case studies that address emerging trends, challenges, and applications in these fields. Our mission is to foster knowledge exchange among researchers, academicians, and industry professionals worldwide. IJCCBD aims to be a leading platform for groundbreaking research that shapes the future of cloud computing and big data.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
-                                    <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
-                                        <div className='flex justify-between '>  Submit Manuscript
+                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                                    <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold lg:text-base  text-sm" >
+                                        <div className='flex justify-between items-center'>Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className='hidden lg:block '>
@@ -92,7 +93,7 @@ function Aboutus({navigate,activeTab,setActiveTab,featuredTopics}) {
                                 Featured Topics
                             </h2>
                             <div className='absolute bg-[#4B164C] h-[3px] min-w-[130px] '></div></div>
-                        <div className="flex border-b-[2px] border-[#4B164C] mb-6 gap-8">
+                        <div className="flex border-b-[2px] border-[#4B164C] mb-6 lg:gap-8 gap-2 sm:gap-8 md:gap-8">
                             {featuredTopics.map((topic, index) => (
                                 <button
                                     key={index}
@@ -131,7 +132,7 @@ function Aboutus({navigate,activeTab,setActiveTab,featuredTopics}) {
                     <div className="text-center px-4 lg:px-0 mt-2 mb-2">
 
                         <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px]  poppins-bold" onClick={() => navigate('/authorguidelinespage')} >
-                            <div className='flex justify-between '>   Submission Guidelines
+                            <div className='flex justify-between items-center'>   Submission Guidelines
                                 <img src={right} alt="Submit Icon" /></div>
                         </button>
 

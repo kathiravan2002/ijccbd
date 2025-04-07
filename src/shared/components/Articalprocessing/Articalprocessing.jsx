@@ -3,6 +3,7 @@ import cloud from '/assets/cloud.png'
 import check from '/assets/Checkmark.png'
 import dash from '/assets/books.jpg'
 import submit from '/assets/uploads.png';
+import { Link } from 'react-router-dom';
 
 function Articalprocessing({activeTab,setActiveTab,featuredTopics}) {
 
@@ -10,12 +11,12 @@ function Articalprocessing({activeTab,setActiveTab,featuredTopics}) {
     return (
         <div className='flex flex-cols  w-full'>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  lg:mt-[145px] mt-[80px]">
+            <div className="text-justify   2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                                 Article Processing
                             </h1>
                             <div className='lg:hidden block '>
@@ -25,12 +26,12 @@ function Articalprocessing({activeTab,setActiveTab,featuredTopics}) {
                             The International Journal of Cloud Computing and Big Data (IJCCBD) follows a structured article processing workflow to ensure high-quality and timely publication. Each submitted manuscript undergoes an initial editorial screening, followed by a rigorous double-blind peer review process. Accepted articles are carefully edited, formatted, and prepared for online publication. The journal maintains transparency in the review and publication timeline to provide authors with a smooth and efficient experience. IJCCBD is committed to upholding academic integrity and publishing impactful research in cloud computing and big data.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
-                                    <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
-                                        <div className='flex justify-between '>  Submit Manuscript
+                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                                    <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold lg:text-base  text-sm" >
+                                        <div className='flex justify-between items-center'>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>
                                     </button>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className='hidden lg:block '>
@@ -75,7 +76,7 @@ function Articalprocessing({activeTab,setActiveTab,featuredTopics}) {
                             Processing Steps
                             </h2>
                             <div className='absolute bg-[#4B164C] h-[3px] min-w-[130px] '></div></div>
-                        <div className="flex border-b-[2px] border-[#4B164C] mb-6 gap-8">
+                        <div className="flex border-b-[2px] border-[#4B164C] mb-6 lg:gap-8 gap-4 sm:gap-8 md:gap-8">
                             {featuredTopics.map((topic, index) => (
                                 <button
                                     key={index}

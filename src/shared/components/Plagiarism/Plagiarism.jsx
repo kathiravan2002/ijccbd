@@ -8,12 +8,12 @@ const Plagiarism = () => {
     return (
         <div className='flex '>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
+            <div className="text-justify 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Plagiarism Policy
                             </h1>
                             <div className='lg:hidden block '>
@@ -52,18 +52,18 @@ const Plagiarism = () => {
                         </div>
                         <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Direct plagiarism: Copying text verbatim without source acknowledgement.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Paraphrasing plagiarism: Rewording content without citing original source.</p></div>
-                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Mosaic plagiarism: Combining text from multiple sources without proper citation</p></div>
-                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Self-plagiarism: Reusing own previously published work without citation</p></div>
-                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Contract plagiarism: Submitting commissioned work as original content</p></div>
+                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Mosaic plagiarism: Combining text from multiple sources without proper citation.</p></div>
+                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Self-plagiarism: Reusing own previously published work without citation.</p></div>
+                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Contract plagiarism: Submitting commissioned work as original content.</p></div>
 
                     </div>
                 </div>
                 <div className="bg-white p-3 border rounded-lg shadow-md">
                     <div className="relative w-fit mx-auto mb-6">
-                        <h2 className=" text-xl lg:text-xl poppins-bold text-[#4B164C] text-center ">
+                        <h2 className=" text-lg lg:text-xl poppins-bold text-[#4B164C] text-center ">
                         Detection and Consequences
                         </h2>
-                        <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] '></div></div>
+                        <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] hidden lg:block'></div></div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 '><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The International Journal of Cloud Computing and Big Data (IJCCBD) strictly prohibits plagiarism in any form. </p><br /> </div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular"> All submitted manuscripts are screened using advanced plagiarism detection software to identify any similarities with existing published work. If plagiarism is detected, the manuscript will be rejected immediately.</p><br /> </div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">In cases of minor overlap, authors will be asked to revise and resubmit the work. Severe cases of plagiarism may lead to a ban on future submissions and notification to the author’s institution. </p><br /> </div>

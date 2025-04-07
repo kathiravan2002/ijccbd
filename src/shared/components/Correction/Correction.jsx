@@ -8,12 +8,12 @@ const Correction = () => {
     return (
         <div className='flex '>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
+            <div className="text-justify  2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Journal Correction Policy
                             </h1>
                             <div className='lg:hidden block '>
@@ -56,10 +56,10 @@ const Correction = () => {
                 </div>
                 <div className="bg-white p-3 border rounded-lg shadow-md">
                     <div className="relative w-fit mx-auto mb-6">
-                        <h2 className=" text-xl lg:text-xl poppins-bold text-[#4B164C] text-center ">
+                        <h2 className=" text-lg lg:text-xl poppins-bold text-[#4B164C] text-center ">
                         Correction Process
                         </h2>
-                        <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] '></div></div>
+                        <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] hidden lg:block'></div></div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 '><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The International Journal of Cloud Computing and Big Data (IJCCBD) follows a structured correction process to ensure the accuracy and integrity of published research.  </p><br /> </div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">When an error is identified, authors or readers can submit a formal request for correction. </p><br /> </div>
                     <div className='flex items-start gap-4 2xl:px-14 xl:px-14 lg:px-18 md:px-18 px-0 mt-2'><img src={check} alt="ll" className='w-[26px] h-[20px]' /><p className="text-base mb-2 poppins-regular">The editorial team reviews the issue to determine its impact and categorizes it as a minor error, a significant correction, or a retraction if necessary. </p><br /> </div>

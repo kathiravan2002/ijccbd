@@ -6,6 +6,7 @@ import dash from '/assets/books.jpg'
 import circleA from '/assets/CA.png'
 import circleS from '/assets/CS.png'
 import check from '/assets/Checkmark.png'
+import { Link } from 'react-router-dom';
 
 const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) => {
   
@@ -13,14 +14,14 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
   return (
     <div className="flex flex-col min-h-screen w-full max-w-[1500px] mx-auto ">
 
-      <div className="max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px] " >
+      <div className="  2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px] " >
         <main className="w-full text-justify ">
           <section className="w-full">
             <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
               <div className='lg:flex justify-evenly gap-2'>
                 <div>
-                  <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                  <h1 className="text-lg  lg:text-xl  mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                     Welcome to IJCCBD
                   </h1>
                   <div className='lg:hidden block '>
@@ -33,12 +34,12 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
                     focuses on cutting-edge research and advancements in the fields of cloud computing and big data. The journal aims to provide a platform for researchers, academics, and industry professionals to share insights and innovative solutions. It covers topics such as cloud infrastructure, data management, security, scalability, and real-time data processing. The journal encourages original research articles, reviews, and case studies that address current challenges and future trends.
                   </p>
                   <div className="text-center px-4 lg:px-0 ">
-                    <a href="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
-                      <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold" >
-                        <div className='flex justify-between '>  Submit Manuscript
+                    <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                      <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold text-sm lg:text-base" >
+                        <div className='flex justify-between items-center'>  Submit Manuscript
                           <img src={submit} alt="Submit Icon" /></div>
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='hidden lg:block '>
@@ -101,7 +102,7 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
                 </h2>
                 <div className='absolute bg-[#4B164C] h-[3px] min-w-[130px] '></div></div>
 
-              <div className="flex border-b-[2px] border-[#4B164C] mb-6 gap-8">
+              <div className="flex border-b-[2px] border-[#4B164C] mb-6 lg:gap-8 gap-2 sm:gap-8 md:gap-8">
                 {featuredTopics.map((topic, index) => (
                   <button
                     key={index}

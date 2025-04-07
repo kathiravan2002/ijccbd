@@ -8,12 +8,12 @@ const Publicationrights = () => {
     return (
         <div className='flex '>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 lg:mt-[145px] mt-[80px]">
+            <div className="text-justify 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Publication Rights Policy
                             </h1>
                             <div className='lg:hidden block '>
@@ -52,14 +52,14 @@ const Publicationrights = () => {
                         <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Authors are recognized as the copyright owners, demonstrating our value of author relationships.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Centralized management of permissions and licensing ensures maximum content dissemination.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Protection against infringement, inappropriate use, libel, and plagiarism.</p></div>
-                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Self-plagiarism: Reusing own previously published work without citation</p></div>
+                        <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Self-plagiarism: Reusing own previously published work without citation.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Ability to maintain and monitor the integrity of published content across all media.</p></div>
 
                     </div>
                 </div>
                 <div className="bg-white p-3 border rounded-lg shadow-md">
                     <div className="relative w-fit mx-auto mb-6">
-                        <h2 className=" text-xl lg:text-xl poppins-bold text-[#4B164C] text-center ">
+                        <h2 className=" text-lg lg:text-xl poppins-bold text-[#4B164C] text-center hidden lg:block">
                         Rights Management
                         </h2>
                         <div className='absolute bg-[#4B164C] h-[3px] min-w-[200px] '></div></div>

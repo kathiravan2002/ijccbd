@@ -9,12 +9,12 @@ function Publicationethics({activeTab,setActiveTab,featuredTopics}) {
     return (
         <div className='flex flex-cols  w-full'>
 
-            <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2  lg:mt-[145px] mt-[80px]">
+            <div className="text-justify 2xl:mt-[145px] xl:mt-[125px] lg:mt-[125px] mt-[80px]">
                 <div className='bg-[#F8E7F6] p-3 lg:py-5 py-3 border rounded-lg mb-6 lg:mb-6 shadow-md'>
 
                     <div className='lg:flex justify-evenly gap-2'>
                         <div>
-                            <h1 className="text-xl  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
+                            <h1 className="text-lg  lg:text-xl font-bold mb-3 lg:mb-4 text-[#4B164C]  px-1 poppins-bold">
                             Publication Ethics
                             </h1>
                             <div className='lg:hidden block '>
@@ -60,7 +60,7 @@ function Publicationethics({activeTab,setActiveTab,featuredTopics}) {
                             Ethical Guidelines
                             </h2>
                             <div className='absolute bg-[#4B164C] h-[3px] min-w-[130px] '></div></div>
-                        <div className="flex border-b-[2px] border-[#4B164C] mb-6 gap-8">
+                        <div className="flex border-b-[2px] border-[#4B164C] mb-6 lg:gap-8 gap-2 sm:gap-8 md:gap-8">
                             {featuredTopics.map((topic, index) => (
                                 <button
                                     key={index}
