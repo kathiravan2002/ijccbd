@@ -6,9 +6,9 @@ function Publicationethicspage() {
  const [activeTab, setActiveTab] = useState(0);
     const featuredTopics = [
         {
-            title: "Open Acess Policy",
+            title: "Open Access Policy",
             content: [
-                "The International Journal of Cloud Computing and Big Data (IJCCBD) follows an open access policy, ensuring that all published articles are freely available to researchers, academicians, and the public without any subscription or access fees.  ",
+                "The International Journal of Cloud Computing and Big Data follows an open access policy, ensuring that all published articles are freely available to researchers, academicians, and the public without any subscription or access fees.  ",
                 "This promotes global knowledge sharing, innovation, and collaboration in the fields of cloud computing and big data.",
                 "Authors retain copyright over their work while granting the journal the right to distribute and archive it.  ",
                 "Readers can access, download, and share published content, provided proper citation is given. ",
@@ -30,7 +30,7 @@ function Publicationethicspage() {
         {
             title: "Community Standards",
             content: [
-                "The International Journal of Cloud Computing and Big Data (IJCCBD) is committed to fostering a respectful, inclusive, and professional academic community. ",
+                "The International Journal of Cloud Computing and Big Data is committed to fostering a respectful, inclusive, and professional academic community. ",
                 "Authors, reviewers, and editors must engage in ethical research practices, constructive peer review, and fair collaboration.",
                 "Any form of discrimination, harassment, or unethical conduct is strictly prohibited.",
                 "The journal promotes transparency, integrity, and intellectual diversity in all scholarly communications.",

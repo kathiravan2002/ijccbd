@@ -21,7 +21,7 @@ function Abstractindexing({activeTab,featuredTopics,setActiveTab}) {
                                 <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
                             </div>
                             <p className="  text-black mb-3 lg:mb-4   px-1  poppins-regular max-w-[1094px] ">
-                            The International Journal of Cloud Computing and Big Data (IJCCBD) is dedicated to enhancing the visibility and accessibility of published research by being indexed in leading academic databases. Our goal is to ensure that high-quality research reaches a global audience through reputable abstracting and indexing services. Inclusion in these databases improves citation impact, discoverability, and academic recognition for authors. The journal continuously seeks to expand its presence in well-regarded indexing platforms to support the dissemination of cutting-edge research in cloud computing and big data.
+                            The International Journal of Cloud Computing and Big Data is dedicated to enhancing the visibility and accessibility of published research by being indexed in leading academic databases. Our goal is to ensure that high-quality research reaches a global audience through reputable abstracting and indexing services. Inclusion in these databases improves citation impact, discoverability, and academic recognition for authors. The journal continuously seeks to expand its presence in well-regarded indexing platforms to support the dissemination of cutting-edge research in cloud computing and big data.
                             </p>
                         </div>
                         <div className='hidden lg:block '>
@@ -37,7 +37,7 @@ function Abstractindexing({activeTab,featuredTopics,setActiveTab}) {
                                 <h2 className='text-[#4B164C] poppins-bold  text-xl text-center'>Global Visibility</h2>
                             </div>
                         </div>
-                        <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data (IJCCBD) is committed to ensuring worldwide accessibility and recognition of published research. </p></div>
+                        <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data is committed to ensuring worldwide accessibility and recognition of published research. </p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>By aiming for inclusion in leading academic indexing and abstracting services, the journal enhances the visibility and impact of its articles.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>This global reach allows researchers, academicians, and industry professionals to access high-quality research, fostering knowledge dissemination and collaboration across institutions and disciplines. </p></div>
                     </div>
@@ -47,7 +47,7 @@ function Abstractindexing({activeTab,featuredTopics,setActiveTab}) {
                                 <h2 className='text-[#4B164C] poppins-bold  text-xl text-center'>Quality Assurance</h2>
                             </div>
                         </div>
-                        <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data (IJCCBD) is dedicated to maintaining the highest standards of quality in academic publishing.</p></div>
+                        <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data is dedicated to maintaining the highest standards of quality in academic publishing.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '> Every submitted manuscript undergoes a rigorous double-blind peer review process to ensure originality, accuracy, and scholarly significance.</p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Authors, reviewers, and editors work collaboratively to enhance the clarity, relevance, and impact of published articles. </p></div>
                     </div>

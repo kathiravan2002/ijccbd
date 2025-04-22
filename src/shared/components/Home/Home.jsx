@@ -29,7 +29,7 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
                   </div>
                   <p className="  text-black mb-3 lg:mb-4   px-1  poppins-regular max-w-[1094px] ">
                     <span className=" poppins-semibold ">
-                      The International Journal of Cloud Computing and Big Data(IJCCBD)
+                      The International Journal of Cloud Computing and Big Data
                     </span>{' '}
                     focuses on cutting-edge research and advancements in the fields of cloud computing and big data. The journal aims to provide a platform for researchers, academics, and industry professionals to share insights and innovative solutions. It covers topics such as cloud infrastructure, data management, security, scalability, and real-time data processing. The journal encourages original research articles, reviews, and case studies that address current challenges and future trends.
                   </p>
@@ -57,7 +57,7 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
                   <h2 className='text-[#4B164C] poppins-bold mt-2 text-[20px] text-center'>About the Journal</h2>
                 </div>
               </div>
-              <p className='poppins-regular mt-4 px-4 '>The International Journal of Cloud Computing and Big Data (IJCCBD) is a peer-reviewed journal dedicated to advancing research in cloud computing and big data technologies. It covers areas like cloud infrastructure, data storage, security, and big data analytics. The journal aims to provide a platform for researchers and professionals to share insights and innovative solutions.</p>
+              <p className='poppins-regular mt-4 px-4 '>The International Journal of Cloud Computing and Big Data is a peer-reviewed journal dedicated to advancing research in cloud computing and big data technologies. It covers areas like cloud infrastructure, data storage, security, and big data analytics. The journal aims to provide a platform for researchers and professionals to share insights and innovative solutions.</p>
               <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Quarterly publication schedule</p></div>
               <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Double-blind peer review</p></div>
               <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Open access options available</p></div>
@@ -77,7 +77,7 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
                   <h2 className='text-[#4B164C] poppins-bold mt-2 text-[20px] text-center'>Aim & Scope</h2>
                 </div>
               </div>
-              <p className='poppins-regular mt-4 px-4 '>The International Journal of Cloud Computing and Big Data (IJCCBD) aims to promote research and innovation in cloud computing and big data technologies. The journal covers topics such as cloud infrastructure, data processing, storage, security, big data analytics, and AI-driven solutions. IJCCBD seeks to provide a platform for researchers and practitioners to share insights and address emerging challenges in these fields.</p>
+              <p className='poppins-regular mt-4 px-4 '>The International Journal of Cloud Computing and Big Data aims to promote research and innovation in cloud computing and big data technologies. The journal covers topics such as cloud infrastructure, data processing, storage, security, big data analytics, and AI-driven solutions. IJCCBD seeks to provide a platform for researchers and practitioners to share insights and address emerging challenges in these fields.</p>
               <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Original research articles</p></div>
               <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Systematic reviews and meta-analyses</p></div>
               <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Case studies and technical notes</p></div>

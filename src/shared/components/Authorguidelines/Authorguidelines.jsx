@@ -21,7 +21,7 @@ function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
                 <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
               </div>
               <p className="  text-black mb-3 lg:mb-4 px-1  poppins-regular max-w-[1094px] ">
-                The International Journal of Cloud Computing and Big Data (IJCCBD) welcomes high-quality research contributions in the fields of cloud computing, big data analytics, and related technologies. Authors are required to submit original, unpublished work that adheres to ethical research standards and proper citation practices. Manuscripts should be well-structured, clearly written, and formatted according to the journal’s submission guidelines. All submissions undergo a rigorous double-blind peer review process to ensure academic integrity and research excellence. Authors must follow the prescribed formatting, referencing style, and ethical guidelines to maintain publication standards.
+                The International Journal of Cloud Computing and Big Data welcomes high-quality research contributions in the fields of cloud computing, big data analytics, and related technologies. Authors are required to submit original, unpublished work that adheres to ethical research standards and proper citation practices. Manuscripts should be well-structured, clearly written, and formatted according to the journal’s submission guidelines. All submissions undergo a rigorous double-blind peer review process to ensure academic integrity and research excellence. Authors must follow the prescribed formatting, referencing style, and ethical guidelines to maintain publication standards.
               </p>
             </div>
             <div className='hidden lg:block '>
@@ -37,7 +37,7 @@ function Authorguidelines({activeTab,setActiveTab,featuredTopics}) {
                 <h2 className='text-[#4B164C] poppins-bold  text-[20px] text-center'>Publishing Requirements</h2>
               </div>
             </div>
-            <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data (IJCCBD) requires all submitted manuscripts to be original, unpublished, and free from plagiarism.</p></div>
+            <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data requires all submitted manuscripts to be original, unpublished, and free from plagiarism.</p></div>
             <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Authors must ensure their research aligns with the journal’s scope and follows ethical guidelines. </p></div>
             <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '> Submissions should be formatted as per the journal’s prescribed template, including proper citations and references.</p></div>
             <h2 className="text-base text-[#4B164C] poppins-bold mb-2 mt-2 pl-6 lg:pl-16">Key Requirements :</h2>

@@ -21,7 +21,7 @@ function Copyrightform({activeTab,setActiveTab,featuredTopics}) {
                                 <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
                             </div>
                             <p className="  text-black mb-3 lg:mb-4 px-1  poppins-regular max-w-[1094px] ">
-                            By submitting a manuscript to the International Journal of Cloud Computing and Big Data (IJCCBD), authors confirm that the work is original, unpublished, and not under consideration elsewhere. Upon acceptance, authors retain copyright but grant the journal the right to publish, distribute, and archive the work in print and digital formats. Proper credit must be given when the article is reused or cited. Any use of third-party content must comply with copyright laws and include necessary permissions. The journal upholds strict ethical standards to ensure integrity in academic publishing.
+                            By submitting a manuscript to the International Journal of Cloud Computing and Big Data, authors confirm that the work is original, unpublished, and not under consideration elsewhere. Upon acceptance, authors retain copyright but grant the journal the right to publish, distribute, and archive the work in print and digital formats. Proper credit must be given when the article is reused or cited. Any use of third-party content must comply with copyright laws and include necessary permissions. The journal upholds strict ethical standards to ensure integrity in academic publishing.
                             </p>
                         </div>
                         <div className='hidden lg:block '>

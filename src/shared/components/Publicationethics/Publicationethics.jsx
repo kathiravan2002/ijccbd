@@ -21,7 +21,7 @@ function Publicationethics({activeTab,setActiveTab,featuredTopics}) {
                                 <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
                             </div>
                             <p className="  text-black mb-3 lg:mb-4   px-1  poppins-regular max-w-[1094px] ">
-                            The International Journal of Cloud Computing and Big Data (IJCCBD) upholds the highest standards of publication ethics to ensure integrity, transparency, and academic excellence. All submissions must be original, free from plagiarism, and follow ethical research practices. Authors, reviewers, and editors are expected to adhere to fair and unbiased evaluation, confidentiality, and responsible authorship. Any form of data fabrication, falsification, or duplicate submission is strictly prohibited. The journal follows ethical guidelines set by international organizations to maintain credibility and trust in scholarly publishing.
+                            The International Journal of Cloud Computing and Big Data upholds the highest standards of publication ethics to ensure integrity, transparency, and academic excellence. All submissions must be original, free from plagiarism, and follow ethical research practices. Authors, reviewers, and editors are expected to adhere to fair and unbiased evaluation, confidentiality, and responsible authorship. Any form of data fabrication, falsification, or duplicate submission is strictly prohibited. The journal follows ethical guidelines set by international organizations to maintain credibility and trust in scholarly publishing.
                             </p>
                         </div>
                         <div className='hidden lg:block '>
@@ -47,7 +47,7 @@ function Publicationethics({activeTab,setActiveTab,featuredTopics}) {
                                 <h2 className='text-[#4B164C] poppins-bold  text-xl text-center'>Fail Review Process</h2>
                             </div>
                         </div>
-                        <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data (IJCCBD) follows a double-blind peer review process to ensure impartiality and fairness. </p></div>
+                        <div className='flex items-start  2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Cloud Computing and Big Data follows a double-blind peer review process to ensure impartiality and fairness. </p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>Reviewers evaluate submissions based on originality, quality, and relevance without bias. </p></div>
                         <div className='flex items-start 2xl:px-20 xl:px-20 lg:px-18 md:px-18 px-3 mt-2 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The identities of both authors and reviewers are kept confidential to maintain the integrity of the review process.</p></div>
                     </div>

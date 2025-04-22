@@ -9,7 +9,7 @@ const [activeTab, setActiveTab] = useState(0);
     {
       title: "Research Article",
       content: [
-        "The International Journal of Cloud Computing and Big Data (IJCCBD) ensures a rigorous double-blind peer review process for research articles. ",
+        "The International Journal of Cloud Computing and Big Data ensures a rigorous double-blind peer review process for research articles. ",
         "Each submission is evaluated for originality, research methodology, data analysis, and contribution to the field.",
         "Independent experts assess the scientific validity, significance, and clarity of findings. ",
         "Authors receive constructive feedback and may be required to make revisions before acceptance. ",
