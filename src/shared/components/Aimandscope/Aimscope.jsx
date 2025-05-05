@@ -25,7 +25,7 @@ const Aimscope = () => {
                                 The International Journal of Cloud Computing and Big Data aims to provide a leading platform for researchers, academicians, and industry professionals to publish and share innovative research in cloud computing and big data. The journal focuses on key areas such as cloud architecture, security, big data analytics, distributed computing, IoT integration, and AI-driven data processing. It welcomes original research articles, review papers, and case studies that explore emerging trends, challenges, and practical applications.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/about/submissions" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold lg:text-base  text-sm" >
                                         <div className='flex justify-between items-center'>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>

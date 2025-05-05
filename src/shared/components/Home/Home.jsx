@@ -34,7 +34,7 @@ const Home = ({activeTab,featuredTopics,setActiveTab,navigate,researchDomains}) 
                     focuses on cutting-edge research and advancements in the fields of cloud computing and big data. The journal aims to provide a platform for researchers, academics, and industry professionals to share insights and innovative solutions. It covers topics such as cloud infrastructure, data management, security, scalability, and real-time data processing. The journal encourages original research articles, reviews, and case studies that address current challenges and future trends.
                   </p>
                   <div className="text-center px-4 lg:px-0 ">
-                    <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/about/submissions" target="_blank" rel="noopener noreferrer">
                       <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold text-sm lg:text-base" >
                         <div className='flex justify-between items-center'>  Submit Manuscript
                           <img src={submit} alt="Submit Icon" /></div>

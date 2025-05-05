@@ -26,7 +26,7 @@ function Aboutus({navigate,activeTab,setActiveTab,featuredTopics}) {
                                 The International Journal of Cloud Computing and Big Data is a peer-reviewed journal dedicated to advancing research and innovation in cloud computing and big data technologies. We publish high-quality research articles, reviews, and case studies that address emerging trends, challenges, and applications in these fields. Our mission is to foster knowledge exchange among researchers, academicians, and industry professionals worldwide. IJCCBD aims to be a leading platform for groundbreaking research that shapes the future of cloud computing and big data.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/about/submissions" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold lg:text-base  text-sm" >
                                         <div className='flex justify-between items-center'>Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>

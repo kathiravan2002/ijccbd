@@ -26,7 +26,7 @@ function Articalprocessing({activeTab,setActiveTab,featuredTopics}) {
                             The International Journal of Cloud Computing and Big Data follows a structured article processing workflow to ensure high-quality and timely publication. Each submitted manuscript undergoes an initial editorial screening, followed by a rigorous double-blind peer review process. Accepted articles are carefully edited, formatted, and prepared for online publication. The journal maintains transparency in the review and publication timeline to provide authors with a smooth and efficient experience. IJCCBD is committed to upholding academic integrity and publishing impactful research in cloud computing and big data.
                             </p>
                             <div className="text-center px-4 lg:px-0 ">
-                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/index" target="_blank" rel="noopener noreferrer">
+                                <Link to="https://ijccbd.com/ijccbd/index.php/ijccbd/about/submissions" target="_blank" rel="noopener noreferrer">
                                     <button className="bg-[#4B164C] text-white px-4 py-2 rounded-tr-[24px]  rounded-bl-[24px] poppins-bold lg:text-base  text-sm" >
                                         <div className='flex justify-between items-center'>  Submit Manuscript
                                             <img src={submit} alt="Submit Icon" /></div>
